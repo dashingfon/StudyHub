@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+img {
+  width: 100px;
+}
+.logo-holder {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+.logo-holders {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+/* welcome message  */
+.welcome-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-message h1 {
+  font-weight: 500;
+  margin-top: 8px;
+}
+.welcome-message p {
+  color: #c6c6c6;
+  margin-bottom: 8px;
+}
+input {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 35px;
+  padding: 5px;
+  margin-top: 12px;
+  border: 1px solid #30c5ff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #30c5ff;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #30c5ff;
+}
+button {
+  margin-top: 30px;
+  padding: 5px;
+  width: 150px;
+  height: 35px;
+  background-color: #30c5ff;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 25px;
+  color: antiquewhite;
+  margin-bottom: 25px;
+}
+button:hover {
+  background-color: transparent;
+  border: 1px solid #30c5ff;
+  color: #30c5ff;
+}
+.optional-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.optional-login p {
+  color: #c6c6c6;
+}
+.optional-login span a {
+  color: #30c5ff;
+}
+.continue {
+  margin-bottom: 25px;
+}
+/* .signup {
+  margin-top: 20px;
+} */
